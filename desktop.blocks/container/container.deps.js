@@ -1,0 +1,5 @@
+({
+    shouldDeps: [
+        { mods: { fluid: true } }
+    ]
+})

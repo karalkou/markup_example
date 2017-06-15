@@ -1,5 +1,7 @@
 ({
-    shouldDeps: [
-        { block: 'jquery' }
+    mustDeps: [
+        { block: 'jquery' },
+        { block : 'variables' },
+        { block : 'container'},
     ]
 })
