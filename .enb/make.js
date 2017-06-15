@@ -9,19 +9,7 @@ var fs = require('fs'),
         borschik: require('enb-borschik/techs/borschik'),
 
         // css
-        postcss: require('enb-postcss/techs/enb-postcss'),
-        postcssPlugins: [
-            require('postcss-import')(),
-            require('postcss-each'),
-            require('postcss-for'),
-            require('postcss-simple-vars')(),
-            require('postcss-calc')(),
-            require('postcss-nested'),
-            require('rebem-css'),
-            require('postcss-url')({ url: 'inline' }),
-            require('autoprefixer')(),
-            require('postcss-reporter')()
-        ],
+        stylus: require('enb-stylus/techs/stylus'),
 
         // js
         browserJs: require('enb-js/techs/browser-js'),
@@ -40,7 +28,9 @@ var fs = require('fs'),
         { path: '.core/desktop.blocks', check: false },
         'common.blocks',
         'desktop.blocks'
-    ];
+    ],
+    packageJson = require('../package.json'),
+    browserslist = packageJson.browserslist;
 
 module.exports = function(config) {
     var isProd = process.env.YENV === 'production',
@@ -66,10 +56,10 @@ module.exports = function(config) {
             [enbBemTechs.files],
 
             // css
-            [techs.postcss, {
+            [techs.stylus, {
                 target: '?.css',
-                oneOfSourceSuffixes: ['post.css', 'css'],
-                plugins: techs.postcssPlugins
+                sourcemap: false,
+                autoprefixer: { browsers: browserslist }
             }],
 
             // bemtree
