@@ -8,32 +8,68 @@ module.exports = {
         { elem: 'css', url: '../merged/merged.min.css' }
     ],
     scripts: [{ elem: 'js', url: '../merged/merged.min.js' }],
-    mods: { theme: 'islands' },
     content: [
         {
-            block: 'header',
+            block: 'page-wrap',
             content: [
-                'header content goes here'
-            ]
-        },
-        {
-            block: 'content',
-            content: [
+                /*- header */
                 {
-                    block: 'colored-block'
-                },
-                {
-                    tag: 'p',
+                    block: 'header',
                     content: [
-                        'This is a demo page'
+                        {
+                            elem: 'inner'
+                        }
+                    ]
+                },
+                /*- content-wrap */
+                {
+                    block: 'content-wrap',
+                    mix: { block: 'clearfix' },
+                    content: [
+                        {
+                            elem: 'inner',
+                            content: [
+                                {
+                                    block: 'aside-nav-wrap'
+                                },
+                                {
+                                    block: 'base-page-cnt',
+                                    mix: { block: 'content' },
+                                    content: [
+                                        {
+                                            block: 'col',
+                                            mods: { persons: true },
+                                            content: []
+                                        },
+                                        {
+                                            block: 'col',
+                                            mods: { content: true },
+                                            content: []
+                                        },
+                                        {
+                                            block: 'col',
+                                            mods: { aux: true },
+                                            content: []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            block: 'aux-space',
+                            attrs: { style: 'background-color: red' }
+                        }
+                    ]
+                },
+                /*- footer */
+                {
+                    block: 'footer',
+                    content: [
+                        {
+                            elem: 'inner'
+                        }
                     ]
                 }
-            ]
-        },
-        {
-            block: 'footer',
-            content: [
-                'footer content goes here'
             ]
         }
     ]
