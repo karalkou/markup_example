@@ -1,0 +1,9 @@
+.list_inline
+  margin-top: $margin-base
+  &:after
+    @extend .clearfix
+  .list__item
+    display: inline-block
+    float: left
+    &:not(:last-child)
+      margin-right: $margin-base - 4

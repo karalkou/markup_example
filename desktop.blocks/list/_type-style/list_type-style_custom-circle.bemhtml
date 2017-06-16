@@ -1,0 +1,29 @@
+block('list').mod('type-style', 'custom-circle')(
+    content()(function(){
+        var self = this;
+        return this.ctx.list.map(function(item){
+            var bemJSON = [
+                {
+                    elem: 'item',
+                    content: [
+                        {
+                            block: 'list',
+                            elem: 'num',
+                            content: item.num
+                        },
+                        {
+                            block: 'list',
+                            elem: 'content',
+                            tag: 'p',
+                            content: item.content
+                        }
+                    ]
+                }
+
+            ];
+
+            return bemJSON;
+
+        })
+    })
+)

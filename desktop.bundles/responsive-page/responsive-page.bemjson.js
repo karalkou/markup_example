@@ -17,7 +17,33 @@ module.exports = {
                     block: 'header',
                     content: [
                         {
-                            elem: 'inner'
+                            elem: 'inner',
+                            content: [
+                                {
+                                    block: 'list',
+                                    mix: { block: 'nav' },
+                                    wrapper: 'none',
+                                    mods: { inline: true },
+                                    list: [
+                                        {
+                                            mix: { block: 'nav', elem: 'item' },
+                                            content: []
+                                        },
+                                        {
+                                            mix: { block: 'nav', elem: 'item' },
+                                            content: []
+                                        },
+                                        {
+                                            mix: { block: 'nav', elem: 'item' },
+                                            content: []
+                                        },
+                                        {
+                                            mix: { block: 'nav', elem: 'item' },
+                                            content: []
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 },
