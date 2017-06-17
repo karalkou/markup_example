@@ -67,13 +67,18 @@ module.exports = {
                                             mods: { persons: true },
                                             content: [
                                                 {
-                                                    elem: 'header'
-                                                },
-                                                {
-                                                    elem: 'content'
-                                                },
-                                                {
-                                                    elem: 'footer'
+                                                    elem: 'inner',
+                                                    content: [
+                                                        {
+                                                            elem: 'header'
+                                                        },
+                                                        {
+                                                            elem: 'content'
+                                                        },
+                                                        {
+                                                            elem: 'footer'
+                                                        }
+                                                    ]
                                                 }
                                             ]
                                         },

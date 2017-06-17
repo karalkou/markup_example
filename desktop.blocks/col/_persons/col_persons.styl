@@ -1,5 +1,11 @@
 .col_persons
+  position: relative
   width: 80px
+  overflow: hidden
+
+  @media (max-width: 1520px)
+    &:hover
+      overflow: initial
 
   @media (min-width: 1521px)
     width: 240px
