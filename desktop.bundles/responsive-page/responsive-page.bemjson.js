@@ -156,7 +156,7 @@ module.exports = {
                                                                                                 }
                                                                                             ]
                                                                                         },
-                                                                                        /* 3 item */
+                                                                                        /*---- 3 item */
                                                                                         {
                                                                                             elem: 'item',
                                                                                             elemMods: { first: true },
@@ -176,7 +176,7 @@ module.exports = {
                                                                                                 }
                                                                                             ]
                                                                                         },
-                                                                                        /* 4 item */
+                                                                                        /*---- 4 item */
                                                                                         {
                                                                                             elem: 'item',
                                                                                             elemMods: { first: true },
@@ -196,7 +196,7 @@ module.exports = {
                                                                                                 }
                                                                                             ]
                                                                                         },
-                                                                                        /* 5 item */
+                                                                                        /*---- 5 item */
                                                                                         {
                                                                                             elem: 'item',
                                                                                             elemMods: { first: true },
@@ -216,7 +216,7 @@ module.exports = {
                                                                                                 }
                                                                                             ]
                                                                                         },
-                                                                                        /* 6 item */
+                                                                                        /*---- 6 item */
                                                                                         {
                                                                                             elem: 'item',
                                                                                             elemMods: { first: true },
@@ -236,7 +236,7 @@ module.exports = {
                                                                                                 }
                                                                                             ]
                                                                                         },
-                                                                                        /* 7 item */
+                                                                                        /*---- 7 item */
                                                                                         {
                                                                                             elem: 'item',
                                                                                             elemMods: { first: true },
@@ -256,7 +256,7 @@ module.exports = {
                                                                                                 }
                                                                                             ]
                                                                                         },
-                                                                                        /* 8 item */
+                                                                                        /*---- 8 item */
                                                                                         {
                                                                                             elem: 'item',
                                                                                             elemMods: { first: true },
@@ -276,7 +276,7 @@ module.exports = {
                                                                                                 }
                                                                                             ]
                                                                                         },
-                                                                                        /* 9 item */
+                                                                                        /*---- 9 item */
                                                                                         {
                                                                                             elem: 'item',
                                                                                             elemMods: { first: true },
@@ -296,7 +296,7 @@ module.exports = {
                                                                                                 }
                                                                                             ]
                                                                                         },
-                                                                                        /* 10 item */
+                                                                                        /*---- 10 item */
                                                                                         {
                                                                                             elem: 'item',
                                                                                             elemMods: { first: true },
