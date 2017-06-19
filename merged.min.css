@@ -149,6 +149,7 @@
   display: inline-block;
   vertical-align: top;
   min-width: 76px;
+  height: 100%;
 }
 /* ../../desktop.blocks/aside-nav-wrap/aside-nav-wrap.styl:end */
 /* ../../desktop.blocks/base-page-cnt/base-page-cnt.styl:begin */
