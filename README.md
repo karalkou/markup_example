@@ -2,6 +2,7 @@
 
 # Результат:
 https://karalkou.github.io/markup_example/responsive-page.html
+https://karalkou.github.io/markup_example/responsive-page-flex.html
 
 # Условие:
 Необходимо сверстать отзывчивую (responsive) страницу без использования  javascript.
