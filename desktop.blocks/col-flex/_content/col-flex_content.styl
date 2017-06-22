@@ -1,0 +1,12 @@
+.col-flex_content
+  flex: 1 0 720px
+
+  @media (min-width: 1180px)
+    flex: 0 0 720px
+
+  @media (min-width: 1480px)
+    flex: 1 0 720px
+
+  &:not(:last-child)
+    @media (max-width: 1179px)
+      border-right: none
