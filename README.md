@@ -1,5 +1,8 @@
 **Важно** Информация по установке в конце файла
 
+# Результат:
+https://karalkou.github.io/markup_example/responsive-page.html
+
 # Условие:
 Необходимо сверстать отзывчивую (responsive) страницу без использования  javascript.
 
