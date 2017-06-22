@@ -2,6 +2,7 @@
 
 # Результат:
 https://karalkou.github.io/markup_example/responsive-page.html
+# Результат на flexbox:
 https://karalkou.github.io/markup_example/responsive-page-flex.html
 
 # Условие:
